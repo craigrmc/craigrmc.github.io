@@ -1,0 +1,18 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.rc-dark-grey {
+  color: #fff !important;
+  background-color: #4b4b4b !important;
+}
+
+.rc-grey {
+  color: #fff !important;
+  background-color: #808080 !important;
+}
+
+.rc-light-grey {
+  color: #fff !important;
+  background-color: #bfbfbf !important;
+}
