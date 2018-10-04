@@ -2,17 +2,26 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-.rc-dark-grey {
-  color: #fff !important;
-  background-color: #4b4b4b !important;
+.rc-div-dark-grey {
+  color: #fff;
+  background-color: #4b4b4b;
 }
 
-.rc-grey {
-  color: #fff !important;
-  background-color: #808080 !important;
+.rc-div-grey {
+  color: #fff;
+  background-color: #808080;
 }
 
-.rc-light-grey {
-  color: #fff !important;
-  background-color: #bfbfbf !important;
+.rc-footer {
+  color: #fff;
+  background-color: #bfbfbf;
+}
+
+.rc-icon {
+  padding:10px;
+}
+
+.rc-paragraph {
+  text-align:justify;
+  text-indent: 50px;
 }
