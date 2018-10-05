@@ -12,16 +12,31 @@ body {
   background-color: #808080;
 }
 
-.rc-footer {
+.rc-div-light-grey {
   color: #fff;
   background-color: #bfbfbf;
 }
 
+.rc-span-dark-grey {
+  color: #fff;
+  background-color: #4b4b4b;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.rc-footer-black {
+  color: white;
+  background-color: black;
+}
+
 .rc-icon {
-  padding:10px;
+  padding: 10px;
 }
 
 .rc-paragraph {
-  text-align:justify;
+  text-align: justify;
   text-indent: 50px;
 }

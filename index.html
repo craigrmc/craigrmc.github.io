@@ -15,8 +15,7 @@
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="navMenuToggle()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Ryan Craig</a>
       <a href="#demo" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Demo</a>
-      <a href="#professional" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Professional</a>
-      <a href="#personal" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Personal</a>
+      <a href="#tech" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Tech</a>
       <a href="#career" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Career</a>
       <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Education</a>
     </div>
@@ -25,8 +24,7 @@
   <!-- Navbar Menu -->
   <div class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top rc-div-dark-grey" style="margin-top:46px;" id="navMenu">
     <a href="#demo" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Demo</a>
-    <a href="#professional" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Professional</a>
-    <a href="#personal" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Personal</a>
+    <a href="#tech" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Tech</a>
     <a href="#career" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Career</a>
     <a href="#education" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Education</a>
   </div>
@@ -64,26 +62,71 @@
     </div>
   </div>
 
-  <!-- Professional Section -->
-  <div class="rc-div-grey" id="professional">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
-      <h2 class="w3-wide w3-center">Professional</h2>
-      <!-- TODO: Add Java image -->
-    </div>
-  </div>
-
-  <!-- Personal Section -->
-  <div class="rc-div-dark-grey" id="personal">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
-      <h2 class="w3-wide w3-center">Personal</h2>
+  <!-- Technologies Section -->
+  <div class="rc-div-grey" id="tech">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;">
+      <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding rc-div-dark-grey">
+          <h4>Primary Tech</h4>
+        </div>
+        <div class="w3-container rc-div-light-grey">
+          <p>
+            <span class="rc-span-dark-grey">Java</span>
+            <span class="rc-span-dark-grey">Swift</span>
+            <span class="rc-span-dark-grey">Android</span>
+            <span class="rc-span-dark-grey">iOS</span>
+            <span class="rc-span-dark-grey">Spring-Boot</span>
+            <span class="rc-span-dark-grey">Docker</span>
+            <span class="rc-span-dark-grey">Gradle</span>
+            <span class="rc-span-dark-grey">Maven</span>
+            <span class="rc-span-dark-grey">Subversion</span>
+            <span class="rc-span-dark-grey">Jenkins</span>
+            <span class="rc-span-dark-grey">Sonar</span>
+            <span class="rc-span-dark-grey">MySQL</span>
+            <span class="rc-span-dark-grey">Markdown</span>
+          </p>
+        </div>
+      </div>
+      <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding rc-div-dark-grey">
+          <h4>Secondary Tech</h4>
+        </div>
+        <div class="w3-container rc-div-light-grey">
+          <p>
+            <span class="rc-span-dark-grey">Objective-C</span>
+            <span class="rc-span-dark-grey">HTML</span>
+            <span class="rc-span-dark-grey">CSS</span>
+            <span class="rc-span-dark-grey">JavaScript</span>
+            <span class="rc-span-dark-grey">Karaf</span>
+            <span class="rc-span-dark-grey">Camel</span>
+            <span class="rc-span-dark-grey">RabbitMQ</span>
+            <span class="rc-span-dark-grey">Git</span>
+            <span class="rc-span-dark-grey">Jira</span>
+            <span class="rc-span-dark-grey">NSIS</span>
+          </p>
+        </div>
+      </div>
+      <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding rc-div-dark-grey">
+          <h4>Learning Tech</h4>
+        </div>
+        <div class="w3-container rc-div-light-grey">
+          <p>
+            <span class="rc-span-dark-grey">Kotlin</span>
+            <span class="rc-span-dark-grey">Flutter</span>
+            <span class="rc-span-dark-grey">GoLang</span>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- Carreer Section -->
-  <div class="rc-div-grey" id="career">
+  <div class="rc-div-dark-grey" id="career">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
       <h2 class="w3-wide">Career</h2>
       <!-- TODO: Add iSirona image -->
+      <!-- <img src="https://nanthealth.com/wp-content/uploads/2018/07/NH-favicon.png" style="max-width:150px;"></img> -->
       <p>2013 - Now: iSirona / NantHealth</p>
       <ul>
         <li>Mobile App Team Lead / Dev Manager</li>
@@ -98,10 +141,11 @@
   </div>
 
   <!-- Education Section -->
-  <div class="rc-div-dark-grey" id="education">
+  <div class="rc-div-grey" id="education">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
       <h2 class="w3-wide">Education</h2>
       <!-- TODO: Add Auburn image -->
+      <!-- <img src="http://www.auburn.edu/template/2016/_assets/images/au_logos/brandingimage-02.png" style="max-width:150px;"></img> -->
       <p>2006 - 2011</p>
       <ul>
         <li>Auburn University</li>
@@ -118,8 +162,8 @@
   </div>
 
   <!-- Footer Section -->
-  <footer class="rc-footer" id="footer">
-    <div class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge">
+  <footer class="rc-footer-black" id="footer">
+    <div class="w3-container w3-content w3-center w3-padding-16">
       <p class="w3-medium">
         Powered by <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> and <a href="https://www.w3schools.com/w3css/" target="_blank">w3.css</a>
       </p>
