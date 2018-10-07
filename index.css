@@ -17,6 +17,11 @@ body {
   background-color: #bfbfbf;
 }
 
+.rc-top-left {
+  text-align: left;
+  vertical-align: top;
+}
+
 .rc-span-dark-grey {
   color: #fff;
   background-color: #4b4b4b;
@@ -33,7 +38,7 @@ body {
 }
 
 .rc-icon {
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .rc-paragraph {
