@@ -11,7 +11,7 @@
 
   <!-- Navbar -->
   <div class="w3-top">
-    <div class="w3-bar w3-card rc-div-dark-grey">
+    <div class="w3-bar w3-card rc-dark-grey">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="navMenuToggle()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Ryan Craig</a>
       <a href="#demo" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="navMenuHide()">Demo</a>
@@ -22,7 +22,7 @@
   </div>
 
   <!-- Navbar Menu -->
-  <div class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top rc-div-dark-grey" style="margin-top:46px;" id="navMenu">
+  <div class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top rc-dark-grey" style="margin-top:46px;" id="navMenu">
     <a href="#demo" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Demo</a>
     <a href="#tech" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Tech</a>
     <a href="#career" class="w3-bar-item w3-button w3-padding-large" onclick="navMenuHide()">Career</a>
@@ -30,13 +30,13 @@
   </div>
 
   <!-- Home Section -->
-  <div class="rc-div-grey" id="home">
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;">
+  <div class="rc-base-grey" id="home">
+    <div class="rc-section rc-center">
       <div class="rc-top-left">
-        <span class="rc-top-left" style="max-width:200px;">
-          <img src="img/profile.jpg" style="max-width:200px;"></img>
+        <span class="rc-image rc-top-left">
+          <img class="rc-image" src="img/profile.jpg"></img>
         </span>
-        <span class="rc-span-dark-grey rc-top-left" style="max-width:200px;">
+        <span class="rc-dark-grey rc-item rc-top-left">
           Ryan Craig<br>Software Engineer
         </span>
       </div>
@@ -44,10 +44,10 @@
       <p class="rc-paragraph">
         I'm a software engineer that's been working professionally for seven years. Most of my career has been with Java, but have developed production code in Objective-C and Swift as well. I consider myself an expert at Mobile Development, but also enjoy Backend and Frontend projects. I believe the delievery pipeline to be a crucial component in maintaining the integrity of a product and releasing at steady and predictiable intervals. I write source code to be unit testable from the start, as it's the best pulse for health. It's faster and safer to have a large suite of automatic tests at compile time rather than a small set of manual tests at release time. Unit tests allows developers to refactor with confidence, knowing that the I/O of a method hasn't changed. It's also a great metric for determining if a method, class, or service is slow. Engineering a strong, roboust, and lasting product requires industry standard methodologies and disciplines. It's the difference between ametuer and professional. The decision of <em>where</em> to implement is just as important as <em>how</em> to implement.
       </p>
-      <div class="w3-row w3-padding-32">
+      <div class="rc-sub-section">
         <a class="w3-hover-opacity" href="https://drive.google.com/file/d/12d3Xa7H2PYjiu-tDCI-k6sXdouoJNm5o/view?usp=sharing" target="_blank"><i class="rc-icon fa fa-google"></i>Full Resume</a>
       </div>
-      <div class="w3-row w3-padding-32">
+      <div class="rc-sub-section">
         <a class="w3-hover-opacity" href="https://www.linkedin.com/in/ryan-craig-5369b730/" target="_blank"><i class="rc-icon fa fa-linkedin"></i>LinkedIn</a>
         <a class="w3-hover-opacity" href="https://www.facebook.com/spockrc/" target="_blank"><i class="rc-icon fa fa-facebook-official"></i>facebook</a>
         <a class="w3-hover-opacity" href="https://www.youtube.com/user/SpockRMC/" target="_blank"><i class="rc-icon fa fa-youtube"></i>YouTube</a>
@@ -56,72 +56,72 @@
   </div>
 
   <!-- Demo Section -->
-  <div class="rc-div-dark-grey" id="demo">
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;">
-      <h2 class="w3-wide">Demo Client-Server</h2>
+  <div class="rc-dark-grey" id="demo">
+    <div class="rc-section rc-center">
+      <h2>Demo Client-Server</h2>
       <p class="rc-paragraph">
         Film Vote is an app to let you and your friends vote on the next film to watch. It consists of a client app on Android and a server based on Spring-Boot. The client allows the end user to sign in to a specific club, similar to Slack, so that only their group of friends are able to vote. The server is designed to connect with an external Movie Database, perhaps IMDb API or OMDb API, to feed the end user with films showing in their location. It's currently in alpha and only serves dummy data.
       </p>
       <!-- TODO: Add Film Vote screenshots -->
-      <div class="w3-row w3-padding-32">
+      <div class="rc-sub-section">
         <a class="w3-hover-opacity" href="https://github.com/craigrmc/film-vote/" target="_blank"><i class="rc-icon fa fa-github"></i>Take a Look</a>
       </div>
     </div>
   </div>
 
   <!-- Technologies Section -->
-  <div class="rc-div-grey" id="tech">
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;">
+  <div class="rc-base-grey" id="tech">
+    <div class="rc-section rc-center">
       <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding rc-div-dark-grey">
+        <div class="w3-container w3-padding rc-dark-grey">
           <h4>Primary Tech</h4>
         </div>
-        <div class="w3-container rc-div-light-grey">
+        <div class="w3-container rc-light-grey">
           <p>
-            <span class="rc-span-dark-grey">Java</span>
-            <span class="rc-span-dark-grey">Swift</span>
-            <span class="rc-span-dark-grey">Android</span>
-            <span class="rc-span-dark-grey">iOS</span>
-            <span class="rc-span-dark-grey">Spring-Boot</span>
-            <span class="rc-span-dark-grey">Docker</span>
-            <span class="rc-span-dark-grey">Gradle</span>
-            <span class="rc-span-dark-grey">Maven</span>
-            <span class="rc-span-dark-grey">Subversion</span>
-            <span class="rc-span-dark-grey">Jenkins</span>
-            <span class="rc-span-dark-grey">Sonar</span>
-            <span class="rc-span-dark-grey">MySQL</span>
-            <span class="rc-span-dark-grey">Markdown</span>
+            <span class="rc-dark-grey rc-item">Java</span>
+            <span class="rc-dark-grey rc-item">Swift</span>
+            <span class="rc-dark-grey rc-item">Android</span>
+            <span class="rc-dark-grey rc-item">iOS</span>
+            <span class="rc-dark-grey rc-item">Spring-Boot</span>
+            <span class="rc-dark-grey rc-item">Docker</span>
+            <span class="rc-dark-grey rc-item">Gradle</span>
+            <span class="rc-dark-grey rc-item">Maven</span>
+            <span class="rc-dark-grey rc-item">Subversion</span>
+            <span class="rc-dark-grey rc-item">Jenkins</span>
+            <span class="rc-dark-grey rc-item">Sonar</span>
+            <span class="rc-dark-grey rc-item">MySQL</span>
+            <span class="rc-dark-grey rc-item">Markdown</span>
           </p>
         </div>
       </div>
       <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding rc-div-dark-grey">
+        <div class="w3-container w3-padding rc-dark-grey">
           <h4>Secondary Tech</h4>
         </div>
-        <div class="w3-container rc-div-light-grey">
+        <div class="w3-container rc-light-grey">
           <p>
-            <span class="rc-span-dark-grey">Objective-C</span>
-            <span class="rc-span-dark-grey">HTML</span>
-            <span class="rc-span-dark-grey">CSS</span>
-            <span class="rc-span-dark-grey">JavaScript</span>
-            <span class="rc-span-dark-grey">Karaf</span>
-            <span class="rc-span-dark-grey">Camel</span>
-            <span class="rc-span-dark-grey">RabbitMQ</span>
-            <span class="rc-span-dark-grey">Git</span>
-            <span class="rc-span-dark-grey">Jira</span>
-            <span class="rc-span-dark-grey">NSIS</span>
+            <span class="rc-dark-grey rc-item">Objective-C</span>
+            <span class="rc-dark-grey rc-item">HTML</span>
+            <span class="rc-dark-grey rc-item">CSS</span>
+            <span class="rc-dark-grey rc-item">JavaScript</span>
+            <span class="rc-dark-grey rc-item">Karaf</span>
+            <span class="rc-dark-grey rc-item">Camel</span>
+            <span class="rc-dark-grey rc-item">RabbitMQ</span>
+            <span class="rc-dark-grey rc-item">Git</span>
+            <span class="rc-dark-grey rc-item">Jira</span>
+            <span class="rc-dark-grey rc-item">NSIS</span>
           </p>
         </div>
       </div>
       <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding rc-div-dark-grey">
+        <div class="w3-container w3-padding rc-dark-grey">
           <h4>Learning Tech</h4>
         </div>
-        <div class="w3-container rc-div-light-grey">
+        <div class="w3-container rc-light-grey">
           <p>
-            <span class="rc-span-dark-grey">Kotlin</span>
-            <span class="rc-span-dark-grey">Flutter</span>
-            <span class="rc-span-dark-grey">GoLang</span>
+            <span class="rc-dark-grey rc-item">Kotlin</span>
+            <span class="rc-dark-grey rc-item">Flutter</span>
+            <span class="rc-dark-grey rc-item">GoLang</span>
           </p>
         </div>
       </div>
@@ -129,9 +129,9 @@
   </div>
 
   <!-- Carreer Section -->
-  <div class="rc-div-dark-grey" id="career">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
-      <h2 class="w3-wide">Career</h2>
+  <div class="rc-dark-grey" id="career">
+    <div class="rc-section">
+      <h2>Career</h2>
       <!-- TODO: Add iSirona image -->
       <!-- <img src="https://nanthealth.com/wp-content/uploads/2018/07/NH-favicon.png" style="max-width:150px;"></img> -->
       <p>2013 - Now: iSirona / NantHealth</p>
@@ -148,9 +148,9 @@
   </div>
 
   <!-- Education Section -->
-  <div class="rc-div-grey" id="education">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
-      <h2 class="w3-wide">Education</h2>
+  <div class="rc-base-grey" id="education">
+    <div class="rc-section">
+      <h2>Education</h2>
       <!-- TODO: Add Auburn image -->
       <!-- <img src="http://www.auburn.edu/template/2016/_assets/images/au_logos/brandingimage-02.png" style="max-width:150px;"></img> -->
       <p>2006 - 2011</p>
@@ -169,9 +169,9 @@
   </div>
 
   <!-- Footer Section -->
-  <footer class="rc-footer-black" id="footer">
-    <div class="w3-container w3-content w3-center w3-padding-16">
-      <p class="w3-medium">
+  <footer class="rc-black" id="footer">
+    <div class="rc-footer rc-center">
+      <p>
         Powered by <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> and <a href="https://www.w3schools.com/w3css/" target="_blank">w3.css</a>
       </p>
     </div>

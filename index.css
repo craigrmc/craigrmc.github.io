@@ -1,44 +1,84 @@
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+
 body {
   font-family: "Courier New", Courier, monospace;
 }
 
-.rc-div-dark-grey {
+/* Colors */
+.rc-dark-grey {
   color: #fff;
   background-color: #4b4b4b;
 }
 
-.rc-div-grey {
+.rc-base-grey {
   color: #fff;
   background-color: #808080;
 }
 
-.rc-div-light-grey {
+.rc-light-grey {
   color: #fff;
   background-color: #bfbfbf;
 }
 
+.rc-black {
+  color: white;
+  background-color: black;
+}
+
+/* Alignments */
 .rc-top-left {
   text-align: left;
   vertical-align: top;
 }
 
-.rc-span-dark-grey {
-  color: #fff;
-  background-color: #4b4b4b;
-  display: inline-block;
-  padding-left: 8px;
-  padding-right: 8px;
+.rc-center {
   text-align: center;
-  margin-bottom: 16px;
+  vertical-align: center;
 }
 
-.rc-footer-black {
-  color: white;
-  background-color: black;
+/* Content */
+.rc-section {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.rc-sub-section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.rc-footer {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.rc-image {
+  max-width: 200px;
 }
 
 .rc-icon {
-  padding-right: 10px;
+  padding-right: 8px;
+}
+
+.rc-item {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 16px;
 }
 
 .rc-paragraph {
