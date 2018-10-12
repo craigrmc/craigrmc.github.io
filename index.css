@@ -37,6 +37,10 @@ body {
   vertical-align: top;
 }
 
+.rc-top-right {
+  text-align: right;
+  vertical-align: top;
+}
 .rc-center {
   text-align: center;
   vertical-align: center;
