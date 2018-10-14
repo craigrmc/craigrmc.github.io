@@ -1,6 +1,9 @@
+// Grab HTML elements
+var navMenu = document.getElementById("navMenu");
+var dialog = document.getElementById('enabledResumeDialog');
+
 // Toggle Navigation Menu between show / hide
 function navMenuToggle() {
-  var navMenu = document.getElementById("navMenu");
   if (navMenu.className.indexOf("w3-show") == -1) {
     navMenu.className += " w3-show";
   } else {
@@ -10,13 +13,11 @@ function navMenuToggle() {
 
 // Show Navigation Menu
 function navMenuShow() {
-  var navMenu = document.getElementById("navMenu");
   navMenu.className += " w3-show";
 }
 
 // Hide Navigation Menu
 function navMenuHide() {
-  var navMenu = document.getElementById("navMenu");
   navMenu.className = navMenu.className.replace("w3-show", "");
 }
 
@@ -27,19 +28,17 @@ function resumeDialogRequest() {
 
 // Show Resume Dialog
 function resumeDialogShow() {
-  var dialog = document.getElementById('enabledResumeDialog');
   dialog.style.display = "block";
 }
 
 // Hide Resume Dialog
 function resumeDialogHide() {
-  var dialog = document.getElementById('enabledResumeDialog');
   dialog.style.display = "none";
 }
 
 // Hide Resume Dialog
 window.onclick = function(event) {
-  if (event.target == document.getElementById('enabledResumeDialog')) {
+  if (event.target == dialog) {
     resumeDialogHide();
   }
 }
