@@ -23,7 +23,7 @@ function navMenuHide() {
 
 // Send Resume Request
 function resumeDialogRequest() {
-  window.open('https://drive.google.com/file/d/12d3Xa7H2PYjiu-tDCI-k6sXdouoJNm5o/view?usp=sharing', '_blank');
+  window.open('https://docs.google.com/document/d/1xZNAmOcF5iwGkE4MmTspmX2_WUiDO2vscug7-m9h65U/view?usp=sharing', '_blank');
 }
 
 // Show Resume Dialog
