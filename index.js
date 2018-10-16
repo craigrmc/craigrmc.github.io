@@ -1,6 +1,6 @@
 // Grab HTML elements
 var navMenu = document.getElementById("navMenu");
-var dialog = document.getElementById('enabledResumeDialog');
+var dialog = document.getElementById('disabledResumeDialog');
 
 // Toggle Navigation Menu between show / hide
 function navMenuToggle() {
@@ -19,11 +19,6 @@ function navMenuShow() {
 // Hide Navigation Menu
 function navMenuHide() {
   navMenu.className = navMenu.className.replace("w3-show", "");
-}
-
-// Send Resume Request
-function resumeDialogRequest() {
-  window.open('https://docs.google.com/document/d/1xZNAmOcF5iwGkE4MmTspmX2_WUiDO2vscug7-m9h65U/view?usp=sharing', '_blank');
 }
 
 // Show Resume Dialog
