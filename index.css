@@ -74,10 +74,7 @@ body {
 .rc-section {
   max-width: 800px;
   margin: auto;
-  padding-top: 64px;
-  padding-bottom: 64px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 64px 16px;
 }
 
 .rc-sub-section {
@@ -88,10 +85,7 @@ body {
 .rc-footer {
   max-width: 800px;
   margin: auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
 }
 
 .rc-image {

@@ -1,6 +1,6 @@
 // Grab HTML elements
-var navMenu = document.getElementById("navMenu");
-var dialog = document.getElementById('disabledResumeDialog');
+let navMenu = document.getElementById("navMenu");
+let dialog = document.getElementById('disabledResumeDialog');
 
 // Toggle Navigation Menu between show / hide
 function navMenuToggle() {
@@ -36,4 +36,4 @@ window.onclick = function(event) {
   if (event.target == dialog) {
     resumeDialogHide();
   }
-}
+};
